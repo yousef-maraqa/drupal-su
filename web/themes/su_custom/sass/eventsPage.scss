@@ -1,0 +1,25 @@
+@import "colors";
+
+
+.breadcrumb {
+  background-color: #fff !important;
+  .breadcrumb-item.active {
+    color: $yellow;
+  }
+  a{
+    color: $blue;
+    &:hover{
+      color: #666565 !important;
+    }
+  }
+}
+.event-content {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  i{
+    color: $yellow;
+  }
+}
+

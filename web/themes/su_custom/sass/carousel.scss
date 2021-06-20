@@ -1,0 +1,85 @@
+@import url(../../assets/fonts/fonts.css);
+@import url(./main.css);
+// carousel main settings
+#carousel {
+  .wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .carousel-inner {
+    height: 78vh;
+    @media only screen and (max-width: 992px) {
+      height: 40vh;
+    }
+    img {
+      object-fit: fill;
+      width: 100%;
+   
+      @media only screen and (max-width: 992px) {
+        
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center scroll;
+  background-size: cover;
+}
+// carousel h1 overlay
+.overlay {
+  width: 30.688rem;
+  height: 20.125rem;
+  background-color: rgba(2, 26, 78, 0.75);
+  padding: 4rem 3rem;
+  color: white;
+  overflow: hidden;
+  word-break: break-all;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  @media only screen and (max-width: 992px) {
+  width: unset;
+  height: unset;
+  padding: 2rem 1rem;
+
+  }
+
+
+  h1 {
+    font-family: "Crimson Text", serif;
+    line-height: 1.63;
+    letter-spacing: 1px;
+    @media only screen and (max-width: 992px) {
+      font-size: 1.3rem;
+    }
+  }
+}
+//carousel coustum design 
+
+.carousel-indicators {
+  bottom: 15px !important;
+  li{
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color: #fff;
+  opacity: 1;
+  border: solid 1px #f3f3f3;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.73);
+  }
+  .active{
+    background-color: transparent !important;
+  }
+}
+
+ .carousel-item {
+   height: 100%;
+position: relative;
+}

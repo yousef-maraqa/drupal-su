@@ -27,6 +27,7 @@
         "drupal/devel": "^2.1",
         "drupal/pathauto": "^1.8",
         "drupal/token": "^1.9",
+        "drupal/webform": "^5.26",
         "drush/drush": "^9.7.1 | ^10.0.0",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
