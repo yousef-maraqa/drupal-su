@@ -8,15 +8,12 @@
 /* Setup */
 @import "reset";
 @import "mixins";
-@import "variables";
-@import "fonts";
+ @import "fonts";
 @import "globals";    
 
-
+ 
 /* WP parts */
 @import "header";
-@import "homepage";
-@import "sidebar";
 @import "footer";
 @import "main";
 @import "footer"; 
@@ -24,18 +21,4 @@
 @import "content";
 @import "carousel";
  
-.nav-link {
-  
-        color: white !important;
-        font-size: 14px;
-        padding: 0 !important;
-        margin: 0.6rem 0;
-
-        transition: 0.5s ease;
-        font-weight: 600;
-        @media only screen and (max-width: 992px) { 
-          color: $blue !important;
-        }
-   
-}
-  
+ 
