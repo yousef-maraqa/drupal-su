@@ -22,3 +22,37 @@
 @import "carousel";
  
  
+#navbar-top{
+    background-color: white !important;
+    .region-top-header{
+        margin: 1rem 0;
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+} 
+
+.block-social-media-links-block{
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+    height: 24px;
+    background-color: #b6b6b6;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0.5rem;
+    svg{
+        height: 18px !important;
+    }
+    }
+} 
+.social-media-links--platforms.horizontal li {
+    display: inline-block;
+    text-align: center;
+    padding: .2em .2em;
+}   
