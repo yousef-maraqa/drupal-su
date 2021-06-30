@@ -1,0 +1,149 @@
+uuid: ed7f91b0-41fc-4dbf-a3ab-6aa983dceaf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.events.body
+    - field.field.node.events.field_end_date
+    - field.field.node.events.field_event_image
+    - field.field.node.events.field_event_location
+    - field.field.node.events.field_start_date
+    - image.style.event_360_220
+    - node.type.events
+  module:
+    - datetime
+    - ds
+    - field_group
+    - image
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bb_cardimageoverlay
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        wrappers:
+          first: div
+          second: div
+        outer_wrapper: div
+        attributes: class|card
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      first:
+        - field_event_image
+        - group_card_body
+        - body
+        - field_start_date
+        - field_end_date
+        - field_event_location
+        - links
+  field_group:
+    group_card_body:
+      children:
+        - body
+        - field_start_date
+        - field_end_date
+        - field_event_location
+        - links
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      region: first
+      format_settings:
+        id: card-body
+        classes: card-body
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'card body'
+id: node.events.default
+targetEntityType: node
+bundle: events
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: first
+  field_end_date:
+    weight: 3
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: first
+  field_event_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: event_360_220
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow: true
+            ow-el: ''
+            ow-cl: card-img-top
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+    type: image
+    region: first
+  field_event_location:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: first
+  field_start_date:
+    weight: 2
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: first
+  links:
+    weight: 5
+    region: first
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 5d69c485-da4c-4a2d-88ff-d3bb40184375
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.statistics_
+    - field.storage.block_content.field_title
+  module:
+    - text
+id: block_content.statistics_.field_title
+field_name: field_title
+entity_type: block_content
+bundle: statistics_
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

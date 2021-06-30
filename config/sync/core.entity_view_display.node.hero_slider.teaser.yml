@@ -1,0 +1,30 @@
+uuid: b49f5ef3-370d-4e7c-ba11-8ce4f11930d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hero_slider.field_event_location
+    - field.field.node.hero_slider.field_hero_slider_image
+    - image.style.hero_slider_
+    - node.type.hero_slider
+  module:
+    - image
+    - user
+id: node.hero_slider.teaser
+targetEntityType: node
+bundle: hero_slider
+mode: teaser
+content:
+  field_hero_slider_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: hero_slider_
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  field_event_location: true
+  links: true

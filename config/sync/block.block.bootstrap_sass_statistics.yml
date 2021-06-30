@@ -1,0 +1,25 @@
+uuid: 903844ed-8b82-4fb7-9882-618ae7a60ad0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6dab3914-0270-466d-b287-e9c14247d8e2'
+  module:
+    - block_content
+  theme:
+    - bootstrap_sass
+id: bootstrap_sass_statistics
+theme: bootstrap_sass
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:6dab3914-0270-466d-b287-e9c14247d8e2'
+settings:
+  id: 'block_content:6dab3914-0270-466d-b287-e9c14247d8e2'
+  label: 'Statistics '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

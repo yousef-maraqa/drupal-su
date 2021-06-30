@@ -1,0 +1,25 @@
+uuid: f74fc266-dc1a-4b56-a887-cdee174ef73b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6dab3914-0270-466d-b287-e9c14247d8e2'
+  module:
+    - block_content
+  theme:
+    - su_custom
+id: statistics
+theme: su_custom
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:6dab3914-0270-466d-b287-e9c14247d8e2'
+settings:
+  id: 'block_content:6dab3914-0270-466d-b287-e9c14247d8e2'
+  label: 'Statistics '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

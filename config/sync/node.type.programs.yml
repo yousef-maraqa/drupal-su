@@ -1,0 +1,18 @@
+uuid: 29311433-6455-46ab-aa89-be6381990563
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: programs
+type: programs
+description: 'this content type refers to the programs offered by the university'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

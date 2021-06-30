@@ -1,0 +1,15 @@
+uuid: 4b8d4075-e71c-4848-9b11-d65bf3543ec8
+langcode: en
+status: true
+dependencies: {  }
+name: programs
+label: 'programs 263*263'
+effects:
+  6721abae-87ba-42f6-b6c5-eccf93097a2e:
+    uuid: 6721abae-87ba-42f6-b6c5-eccf93097a2e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 263
+      height: 263
+      anchor: center-center

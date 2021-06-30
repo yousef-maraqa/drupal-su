@@ -1,0 +1,23 @@
+uuid: f16ea29d-783e-4a5c-877d-ee217dcc223e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.apply_now
+    - field.storage.block_content.field_apply_now_link
+  module:
+    - link
+id: block_content.apply_now.field_apply_now_link
+field_name: field_apply_now_link
+entity_type: block_content
+bundle: apply_now
+label: 'apply now link'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

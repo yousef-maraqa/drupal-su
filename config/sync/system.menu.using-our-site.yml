@@ -1,0 +1,8 @@
+uuid: 79868192-091f-4eea-b0f5-a421590b747d
+langcode: en
+status: true
+dependencies: {  }
+id: using-our-site
+label: 'USING OUR SITE'
+description: 'USING OUR SITE footer region'
+locked: false

@@ -1,0 +1,129 @@
+uuid: 97b7db6f-acf6-4742-8248-75e5415509c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - su_custom
+id: socialmedialinks
+theme: su_custom
+region: top_header
+weight: -7
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: '0'
+  platforms:
+    linkedin:
+      value: '#'
+      description: 'Follow us on LinkedIn'
+      weight: '-34'
+    instagram:
+      value: '#'
+      description: 'Follow us on Instagram'
+      weight: '-33'
+    youtube:
+      value: '#'
+      description: 'Follow us on YouTube'
+      weight: '-32'
+    facebook:
+      value: '#'
+      description: ''
+      weight: '-31'
+    twitter:
+      value: '#'
+      description: 'Follow us on Twitter'
+      weight: '-30'
+    rss:
+      value: ''
+      description: ''
+      weight: '-29'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-28'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-27'
+    github:
+      value: ''
+      description: ''
+      weight: '-26'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-25'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-24'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-23'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-22'
+    gitlab:
+      value: ''
+      description: ''
+      weight: '-21'
+    website:
+      value: ''
+      description: ''
+      weight: '-20'
+    xing:
+      value: ''
+      description: ''
+      weight: '-19'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-18'
+    email:
+      value: ''
+      description: ''
+      weight: '-17'
+    behance:
+      value: ''
+      description: ''
+      weight: '-16'
+    contact:
+      value: ''
+      description: ''
+      weight: '-15'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-14'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-13'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-12'
+    whatsapp:
+      value: ''
+      description: ''
+      weight: '-11'
+  appearance:
+    orientation: h
+    show_name: 0
+    suggestion: ''
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

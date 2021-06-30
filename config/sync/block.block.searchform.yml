@@ -1,0 +1,21 @@
+uuid: 5b8c2f19-82d7-4e4f-b952-04500097301f
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - su
+id: searchform
+theme: su
+region: primary_menu
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

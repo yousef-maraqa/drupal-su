@@ -1,0 +1,30 @@
+uuid: 7fd2006b-71d7-4e19-a9cc-428d22abe131
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.events
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_sass
+id: bootstrap_sass_views_block__events_block_1
+theme: bootstrap_sass
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:events-block_1'
+settings:
+  id: 'views_block:events-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

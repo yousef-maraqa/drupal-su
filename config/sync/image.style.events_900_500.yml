@@ -1,0 +1,15 @@
+uuid: b42540a2-64af-401b-b862-5fcb3b593bf7
+langcode: en
+status: true
+dependencies: {  }
+name: events_900_500
+label: 'events 900*500'
+effects:
+  dd9e9df2-8c71-4160-8f98-b0cff3a17859:
+    uuid: dd9e9df2-8c71-4160-8f98-b0cff3a17859
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 900
+      height: 500
+      anchor: center-center

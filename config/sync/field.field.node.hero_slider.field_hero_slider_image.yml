@@ -1,0 +1,38 @@
+uuid: 5541c032-f187-4908-ad8b-5b9caf2e1e08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_slider_image
+    - node.type.hero_slider
+  module:
+    - image
+id: node.hero_slider.field_hero_slider_image
+field_name: field_hero_slider_image
+entity_type: node
+bundle: hero_slider
+label: 'hero slider image'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

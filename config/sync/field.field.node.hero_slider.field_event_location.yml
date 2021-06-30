@@ -1,0 +1,21 @@
+uuid: 26025d2b-31eb-4e49-854c-08c2515e40a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_location
+    - node.type.hero_slider
+  module:
+    - text
+id: node.hero_slider.field_event_location
+field_name: field_event_location
+entity_type: node
+bundle: hero_slider
+label: 'Slider Text'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

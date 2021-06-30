@@ -1,0 +1,30 @@
+uuid: f3294bc0-414b-41b2-b4a7-a4eabb6070d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.hero_slider
+  module:
+    - system
+    - views
+  theme:
+    - su
+id: su_views_block__hero_slider_block_hero_slider
+theme: su
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:hero_slider-block_hero_slider'
+settings:
+  id: 'views_block:hero_slider-block_hero_slider'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

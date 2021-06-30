@@ -1,0 +1,11 @@
+uuid: b59f02aa-1fc8-426c-87d3-d079ece5f146
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.programs
+id: programs
+label: programs
+image_style_mappings: {  }
+breakpoint_group: responsive_image
+fallback_image_style: programs

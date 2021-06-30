@@ -1,0 +1,171 @@
+uuid: 1671c778-0c56-41a9-a020-5a5b93530fd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media_
+    - field.storage.block_content.field_social_links
+  module:
+    - social_media_links_field
+id: block_content.social_media_.field_social_links
+field_name: field_social_links
+entity_type: block_content
+bundle: social_media_
+label: 'Social Links'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    platform: null
+    value: null
+    platform_values:
+      rss:
+        value: ''
+      website:
+        value: ''
+      instagram:
+        value: ''
+      tumblr:
+        value: ''
+      youtube_channel:
+        value: ''
+      slideshare:
+        value: ''
+      contact:
+        value: ''
+      behance:
+        value: ''
+      email:
+        value: ''
+      vkontakte:
+        value: ''
+      xing:
+        value: ''
+      twitter:
+        value: ''
+      bitbucket:
+        value: ''
+      gitlab:
+        value: ''
+      vimeo:
+        value: ''
+      flickr:
+        value: ''
+      drupal:
+        value: ''
+      linkedin:
+        value: ''
+      facebook:
+        value: ''
+      googleplus:
+        value: ''
+      youtube:
+        value: ''
+      github:
+        value: ''
+      pinterest:
+        value: ''
+      whatsapp:
+        value: ''
+default_value_callback: ''
+settings:
+  iconset: 'fontawesome:2x'
+  platforms:
+    rss:
+      description: ''
+      weight: '-10'
+      enabled: 0
+    bitbucket:
+      description: ''
+      weight: '-9'
+      enabled: 0
+    pinterest:
+      description: ''
+      weight: '-8'
+      enabled: 0
+    github:
+      description: ''
+      weight: '-7'
+      enabled: 0
+    youtube:
+      description: ''
+      weight: '-6'
+      enabled: 0
+    googleplus:
+      description: ''
+      weight: '-5'
+      enabled: 0
+    facebook:
+      description: ''
+      weight: '-4'
+      enabled: 0
+    linkedin:
+      description: ''
+      weight: '-3'
+      enabled: 0
+    drupal:
+      description: ''
+      weight: '-2'
+      enabled: 0
+    flickr:
+      description: ''
+      weight: '-1'
+      enabled: 0
+    vimeo:
+      description: ''
+      weight: '0'
+      enabled: 0
+    gitlab:
+      description: ''
+      weight: '1'
+      enabled: 0
+    twitter:
+      description: ''
+      weight: '2'
+      enabled: 0
+    website:
+      description: ''
+      weight: '3'
+      enabled: 0
+    xing:
+      description: ''
+      weight: '4'
+      enabled: 0
+    vkontakte:
+      description: ''
+      weight: '5'
+      enabled: 0
+    email:
+      description: ''
+      weight: '6'
+      enabled: 0
+    behance:
+      description: ''
+      weight: '7'
+      enabled: 0
+    contact:
+      description: ''
+      weight: '8'
+      enabled: 0
+    slideshare:
+      description: ''
+      weight: '9'
+      enabled: 0
+    youtube_channel:
+      description: ''
+      weight: '10'
+      enabled: 0
+    tumblr:
+      description: ''
+      weight: '11'
+      enabled: 0
+    instagram:
+      description: ''
+      weight: '12'
+      enabled: 0
+    whatsapp:
+      description: ''
+      weight: '13'
+      enabled: 0
+field_type: social_media_links_field

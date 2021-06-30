@@ -1,0 +1,8 @@
+uuid: 1c46c828-e847-4d89-9858-26a5d7a95dbd
+langcode: en
+status: true
+dependencies: {  }
+id: quick-links
+label: 'QUICK LINKS'
+description: 'QUICK LINKS footer region'
+locked: false

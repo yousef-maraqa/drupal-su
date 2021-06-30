@@ -1,0 +1,21 @@
+uuid: 737eebdc-7dda-432e-836f-15bb2757468f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media_
+    - core.entity_view_mode.block_content.social_media_
+    - field.field.block_content.social_media_.field_social_links
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: block_content.social_media_.social_media_
+targetEntityType: block_content
+bundle: social_media_
+mode: social_media_
+content: {  }
+hidden:
+  field_social_links: true

@@ -29,6 +29,7 @@
         "drupal/ctools": "^3.6",
         "drupal/devel": "^2.1",
         "drupal/ds": "^3.12",
+        "drupal/field_formatter_class": "^1.5",
         "drupal/field_group": "^3.1",
         "drupal/fontawesome": "^2.19",
         "drupal/grid_view_bootstrap": "^8.0",

@@ -1,0 +1,10 @@
+uuid: 338da369-a959-46e6-9ce9-ba88f4ec3577
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.social_media_
+label: 'Social Media '
+targetEntityType: block_content
+cache: true

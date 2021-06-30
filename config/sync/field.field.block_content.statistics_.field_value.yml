@@ -1,0 +1,23 @@
+uuid: 0500d3a6-c8da-4443-a640-39aa3cd4e94b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.statistics_
+    - field.storage.block_content.field_value
+id: block_content.statistics_.field_value
+field_name: field_value
+entity_type: block_content
+bundle: statistics_
+label: Value
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

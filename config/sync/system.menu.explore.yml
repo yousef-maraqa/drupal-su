@@ -1,0 +1,8 @@
+uuid: 8ff30448-5049-4770-aa2f-aee7e8867084
+langcode: en
+status: true
+dependencies: {  }
+id: explore
+label: Explore
+description: 'Explore footer region'
+locked: false

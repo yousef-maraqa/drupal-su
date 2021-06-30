@@ -1,0 +1,22 @@
+uuid: cbb75ee1-a923-44cc-abf9-1fd43d626aef
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - su_custom
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: su_custom_messages
+theme: su_custom
+region: top_header
+weight: -1
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,40 @@
+uuid: dfe0d3c4-bfe3-4243-9f7d-0945fc60dda6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.programs.body
+    - field.field.node.programs.field_programs_image
+    - node.type.programs
+  module:
+    - image
+    - text
+    - user
+id: node.programs.default
+targetEntityType: node
+bundle: programs
+mode: default
+content:
+  body:
+    label: above
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 20
+    third_party_settings: {  }
+    region: content
+  field_programs_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

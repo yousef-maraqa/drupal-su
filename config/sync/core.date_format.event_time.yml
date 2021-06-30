@@ -1,0 +1,8 @@
+uuid: 9f9207a5-0c9f-4810-b43e-9cb3da1c8df4
+langcode: en
+status: true
+dependencies: {  }
+id: event_time
+label: 'Event time'
+locked: false
+pattern: 'g:i A'

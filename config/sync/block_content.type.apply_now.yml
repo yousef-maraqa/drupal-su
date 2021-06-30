@@ -1,0 +1,8 @@
+uuid: f88ae38b-82c0-4e4e-a7a6-06313f88882c
+langcode: en
+status: true
+dependencies: {  }
+id: apply_now
+label: 'apply now'
+revision: 0
+description: 'Apply now section'

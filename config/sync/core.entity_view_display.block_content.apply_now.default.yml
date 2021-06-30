@@ -1,0 +1,36 @@
+uuid: 277df33f-d1e1-44a5-a725-c1c20652c54d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.apply_now
+    - field.field.block_content.apply_now.body
+    - field.field.block_content.apply_now.field_apply_now_link
+  module:
+    - link
+    - text
+id: block_content.apply_now.default
+targetEntityType: block_content
+bundle: apply_now
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_apply_now_link:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

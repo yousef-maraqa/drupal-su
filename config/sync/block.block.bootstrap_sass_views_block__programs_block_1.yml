@@ -1,0 +1,30 @@
+uuid: 9a5fdd88-9b4d-458c-9f7c-89f5cec173ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.programs
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_sass
+id: bootstrap_sass_views_block__programs_block_1
+theme: bootstrap_sass
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:programs-block_1'
+settings:
+  id: 'views_block:programs-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

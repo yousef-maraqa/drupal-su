@@ -1,0 +1,15 @@
+uuid: 754622a5-3991-4523-8966-94b0e5ae5037
+langcode: en
+status: true
+dependencies: {  }
+name: event_360_220
+label: 'event 360*220'
+effects:
+  3058591f-3fc7-4af0-9414-f04dfe28a26f:
+    uuid: 3058591f-3fc7-4af0-9414-f04dfe28a26f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 360
+      height: 220
+      anchor: center-center

@@ -1,0 +1,30 @@
+uuid: dbaea0be-e48f-49fb-9b8c-ce69e3dc1c8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.hero_slider
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap_sass
+id: bootstrap_sass_views_block__hero_slider_block_hero_slider
+theme: bootstrap_sass
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:hero_slider-block_hero_slider'
+settings:
+  id: 'views_block:hero_slider-block_hero_slider'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

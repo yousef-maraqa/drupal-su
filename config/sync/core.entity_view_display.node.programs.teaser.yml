@@ -1,0 +1,39 @@
+uuid: 321ef051-75c2-46cd-8294-840ef50bef2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.programs.body
+    - field.field.node.programs.field_programs_image
+    - node.type.programs
+  module:
+    - image
+    - layout_builder
+    - layout_discovery
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: node.programs.teaser
+targetEntityType: node
+bundle: programs
+mode: teaser
+content:
+  field_programs_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true

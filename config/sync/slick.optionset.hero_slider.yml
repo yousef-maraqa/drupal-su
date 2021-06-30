@@ -1,0 +1,23 @@
+uuid: 9a1c36c8-ca4b-44e9-9a34-8b13f935c43a
+langcode: en
+status: true
+dependencies: {  }
+id: hero_slider
+name: hero_slider
+label: 'hero slider'
+weight: 0
+group: ''
+skin: ''
+breakpoints: 0
+optimized: true
+options:
+  options__active_tab: edit-options-settings
+  settings:
+    mobileFirst: true
+    autoplay: true
+    autoplaySpeed: 5000
+    pauseOnHover: false
+    arrows: false
+    dots: true
+    lazyLoad: ondemand
+    slidesToShow: 1

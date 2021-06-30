@@ -1,0 +1,25 @@
+uuid: fcf0eee8-5d20-4d66-a283-7345f59a6a51
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.quick-links
+  module:
+    - system
+  theme:
+    - su
+id: quicklinks
+theme: su
+region: footer_first
+weight: -8
+provider: null
+plugin: 'system_menu_block:quick-links'
+settings:
+  id: 'system_menu_block:quick-links'
+  label: 'QUICK LINKS'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

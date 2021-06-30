@@ -1,0 +1,20 @@
+uuid: cbbb15c5-dc36-4b9f-a321-395a0577109c
+langcode: en
+status: false
+dependencies:
+  theme:
+    - su_custom
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: su_custom_local_actions
+theme: su_custom
+region: top_header
+weight: 0
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

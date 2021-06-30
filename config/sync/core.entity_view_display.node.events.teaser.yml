@@ -1,0 +1,282 @@
+uuid: 2140e5c2-b40c-4be9-8df9-37750eb3b310
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.events.body
+    - field.field.node.events.field_end_date
+    - field.field.node.events.field_event_image
+    - field.field.node.events.field_event_location
+    - field.field.node.events.field_start_date
+    - image.style.event_360_220
+    - node.type.events
+  module:
+    - datetime
+    - ds
+    - field_formatter_class
+    - field_group
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: class|card
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      ds_content:
+        - field_event_image
+        - group_card_body
+        - field_start_date
+        - field_end_date
+        - field_event_location
+        - group_inline
+        - node_title
+        - body
+        - links
+    fields:
+      node_title:
+        plugin_id: node_title
+        weight: 6
+        label: hidden
+        formatter: default
+  field_group:
+    group_card_body:
+      children:
+        - group_inline
+        - node_title
+        - body
+        - links
+      parent_name: ''
+      weight: 2
+      format_type: html_element
+      region: ds_content
+      format_settings:
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: 'card-body '
+        effect: none
+        speed: fast
+        id: ''
+        classes: 'card-body event-data'
+      label: 'card body'
+    group_inline:
+      children:
+        - field_start_date
+        - field_end_date
+        - field_event_location
+      parent_name: group_card_body
+      weight: 5
+      format_type: html_element
+      region: ds_content
+      format_settings:
+        id: ''
+        classes: d-inline
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+      label: inline
+id: node.events.teaser
+targetEntityType: node
+bundle: events
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_trimmed
+    weight: 7
+    settings:
+      trim_length: 80
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    region: ds_content
+  field_end_date:
+    type: datetime_default
+    weight: 3
+    region: ds_content
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: event_time
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: '-'
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: 'd-inline time'
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+  field_event_image:
+    type: image
+    weight: 0
+    region: ds_content
+    label: hidden
+    settings:
+      image_style: event_360_220
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw: true
+            lbw-el: ''
+            lbw-cl: card-img-top
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+  field_event_location:
+    type: text_trimmed
+    weight: 4
+    region: ds_content
+    label: hidden
+    settings:
+      trim_length: 20
+    third_party_settings:
+      field_formatter_class:
+        class: ' '
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: '  |  '
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: title
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: div
+            fi-cl: d-inline
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+  field_start_date:
+    type: datetime_custom
+    weight: 2
+    region: ds_content
+    label: hidden
+    settings:
+      timezone_override: ''
+      date_format: 'g:i A'
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow: true
+            ow-el: ''
+            ow-cl: 'd-inline time'
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+  links:
+    weight: 8
+    region: ds_content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

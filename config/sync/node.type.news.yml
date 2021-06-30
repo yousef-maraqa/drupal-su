@@ -1,0 +1,19 @@
+uuid: 4f8c2f3b-9575-4196-acbd-8d47642f5ba1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - footer
+      - main
+    parent: 'main:'
+name: news
+type: news
+description: 'this content type refers to the news made by the university'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

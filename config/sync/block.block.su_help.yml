@@ -1,0 +1,22 @@
+uuid: 1a82380c-a182-4283-ba1f-4b474c5a4984
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - su
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: su_help
+theme: su
+region: top_header
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
