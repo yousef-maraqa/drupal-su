@@ -1,0 +1,24 @@
+uuid: 4dbcecc7-7de5-49a1-a403-aabc65682c0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_branding_
+    - field.field.block_content.footer_branding_.field_statistics_image
+  module:
+    - image
+id: block_content.footer_branding_.default
+targetEntityType: block_content
+bundle: footer_branding_
+mode: default
+content:
+  field_statistics_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

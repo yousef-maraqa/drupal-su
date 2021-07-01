@@ -176,12 +176,25 @@
         <div class="{{ container }}">
           {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
             <div class="site-footer__top clearfix">
-              {{ page.footer_first }}
-              {{ page.footer_second }}
-              {{ page.footer_third }}
-              {{ page.footer_fourth }}
+            <div class ='row'>
+            <div class="col-lg-3 col-md-6 footer-outer-col col-sm-12 d-flex justify-content-center p-0">
+                  {{ page.footer_first }}
+            </div>
+             <div class="col-lg-3 col-md-6 footer-outer-col col-sm-12 d-flex justify-content-center p-0">
+             {{ page.footer_second }}
+              </div>
+               <div class="col-lg-3 col-md-6 footer-outer-col col-sm-12 d-flex justify-content-center p-0">
+                {{ page.footer_third }}
+               </div>
+              <div class="col-lg-3 col-md-6 footer-outer-col col-sm-12 d-flex justify-content-center p-0">
+          {{ page.footer_fourth }}
+              </div>
+            
+          
+              </div>
             </div>
           {% endif %}
+
           {% if page.footer_fifth %}
             <div class="site-footer__bottom">
               {{ page.footer_fifth }}

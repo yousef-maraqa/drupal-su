@@ -1,0 +1,38 @@
+uuid: 8bf3c7f7-668e-4032-8e2c-07f2ba1a7687
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_branding_
+    - field.storage.block_content.field_statistics_image
+  module:
+    - image
+id: block_content.footer_branding_.field_statistics_image
+field_name: field_statistics_image
+entity_type: block_content
+bundle: footer_branding_
+label: 'Branding Image'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: b5105f0f-35f0-4b2c-8dd3-430435f750a9
+    alt: Logo
+    title: Logo
+    width: 137
+    height: 45
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

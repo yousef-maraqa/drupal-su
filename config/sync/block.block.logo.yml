@@ -1,0 +1,25 @@
+uuid: b958a4c3-b317-4f36-84a6-6f040e106074
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_branding_:7d802e22-9d2c-4f26-b282-24c6ad8645b3'
+  module:
+    - block_content
+  theme:
+    - su
+id: logo
+theme: su
+region: footer_fourth
+weight: -10
+provider: null
+plugin: 'block_content:7d802e22-9d2c-4f26-b282-24c6ad8645b3'
+settings:
+  id: 'block_content:7d802e22-9d2c-4f26-b282-24c6ad8645b3'
+  label: Logo
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

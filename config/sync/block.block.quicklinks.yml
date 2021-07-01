@@ -10,8 +10,8 @@ dependencies:
     - su
 id: quicklinks
 theme: su
-region: footer_first
-weight: -8
+region: footer_second
+weight: -9
 provider: null
 plugin: 'system_menu_block:quick-links'
 settings:

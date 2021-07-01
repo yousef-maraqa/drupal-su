@@ -9,14 +9,14 @@ dependencies:
 id: su_socialmedialinks_2
 theme: su
 region: footer_fourth
-weight: 0
+weight: -8
 provider: null
 plugin: social_media_links_block
 settings:
   id: social_media_links_block
   label: 'Social Media Links'
   provider: social_media_links
-  label_display: visible
+  label_display: '0'
   platforms:
     linkedin:
       value: '#'

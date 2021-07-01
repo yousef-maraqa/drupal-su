@@ -1,0 +1,8 @@
+uuid: ad4e5850-b97d-44f3-9c30-857077310c74
+langcode: en
+status: true
+dependencies: {  }
+id: footer_branding_
+label: 'Footer Branding '
+revision: 0
+description: 'Footer Branding '
