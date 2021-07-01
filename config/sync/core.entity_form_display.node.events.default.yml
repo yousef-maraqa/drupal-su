@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.events.field_event_image
     - field.field.node.events.field_event_location
     - field.field.node.events.field_start_date
+    - field.field.node.events.layout_builder__layout
     - image.style.thumbnail
     - node.type.events
   module:
@@ -109,4 +110,5 @@ content:
       match_limit: 10
     region: content
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  layout_builder__layout: true

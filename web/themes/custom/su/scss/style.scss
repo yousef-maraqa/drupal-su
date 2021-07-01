@@ -422,9 +422,7 @@ background-image: url('../images/image.png');
   padding: 5rem 6.25rem;
   margin: auto;
 }
-.js-form-item-phone-number{
-  width: 22.5rem ;
-}
+ 
 .webform-button--submit{
   padding: 0.875rem 2.5rem;
   background-color: #021a4e;
@@ -439,7 +437,7 @@ background-image: url('../images/image.png');
   }
  
 
-}
+} 
 .webform-actions{
   display: flex;
   justify-content: center;
@@ -523,4 +521,9 @@ background-image: url('../images/image.png');
 }
 .image-style-programs{
   width: 100%;
+}
+.block-block-content034e971f-9c95-4cee-ab27-6cdf50e34581{
+  @media only screen and (max-width: 992px) {
+  margin: 6rem 0;
+  }
 }

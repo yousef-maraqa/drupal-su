@@ -198,6 +198,23 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
+      block_description: events_block
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
+  page_1:
+    display_plugin: page
+    id: page_1
+    display_title: Page
+    position: 2
+    display_options:
+      display_extenders: {  }
+      path: event
     cache_metadata:
       max-age: -1
       contexts:
